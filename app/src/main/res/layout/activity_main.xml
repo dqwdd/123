@@ -14,14 +14,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="e-mail을 입력하세요!"
-        android:textSize="30sp"
+        android:textSize="20sp"
         />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="google@google.com"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:inputType="textWebEmailAddress"
         />
 
@@ -31,14 +31,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="비밀번호를 입력하세요!"
-        android:textSize="30sp"
+        android:textSize="20sp"
         />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="8글자 이상 입력하세요"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:inputType="textPassword"
         />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="한글 입력 가능"
+        android:textSize="15sp"
+        android:singleLine="true"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추천인 입력"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"
+        />
+
 </LinearLayout>
