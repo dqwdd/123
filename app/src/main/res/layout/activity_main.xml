@@ -75,6 +75,7 @@
         android:inputType="textPassword"
         android:singleLine="true"
         android:imeOptions="actionSearch"
+        android:hint="닉네임을 입력해주세요"
         />
 
 </LinearLayout>
